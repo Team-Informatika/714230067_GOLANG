@@ -13,7 +13,7 @@ type Mahasiswa struct {
 
 func GetMahasiswa(c *fiber.Ctx) error {
 	data := Mahasiswa{
-		Nama:    "Galuh Sanjaya ",
+		Nama:    "Galuh Sanjaya Putra",
 		NPM:     "714230067",
 		Umur:    20,
 		Jurusan: "Teknik Informatika",
