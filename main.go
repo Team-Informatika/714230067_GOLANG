@@ -15,8 +15,8 @@ func GetMahasiswa(c *fiber.Ctx) error {
 	data := Mahasiswa{
 		Nama:    "Galuh Sanjaya Putra",
 		NPM:     "714230067",
-		Umur:    19,
-		Jurusan: "Teknik Informatika",
+		Umur:    20,
+		Jurusan: "HIMATIF",
 	}
 	return c.JSON(data)
 }
